@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SSRS_TRTrends", "SSRS_TRTrends\SSRS_TRTrends.rptproj", "{43BEA6DC-2F6F-4C7C-92CF-DBB1C2A1D183}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43BEA6DC-2F6F-4C7C-92CF-DBB1C2A1D183}.Debug|Default.ActiveCfg = Debug
+		{43BEA6DC-2F6F-4C7C-92CF-DBB1C2A1D183}.Debug|Default.Build.0 = Debug
+		{43BEA6DC-2F6F-4C7C-92CF-DBB1C2A1D183}.Debug|Default.Deploy.0 = Debug
+		{43BEA6DC-2F6F-4C7C-92CF-DBB1C2A1D183}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{43BEA6DC-2F6F-4C7C-92CF-DBB1C2A1D183}.DebugLocal|Default.Build.0 = DebugLocal
+		{43BEA6DC-2F6F-4C7C-92CF-DBB1C2A1D183}.Release|Default.ActiveCfg = Release
+		{43BEA6DC-2F6F-4C7C-92CF-DBB1C2A1D183}.Release|Default.Build.0 = Release
+		{43BEA6DC-2F6F-4C7C-92CF-DBB1C2A1D183}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
