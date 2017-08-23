@@ -23,7 +23,7 @@
 FROM            tchecks CROSS JOIN
                          ytd_tchk CROSS JOIN
                          schinfo
-order by tr_num</CommandText>
+	order by tr_num</CommandText>
         <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
       </Query>
       <Fields>
@@ -153,6 +153,20 @@ order by tr_num</CommandText>
                   </TextRun>
                   <TextRun>
                     <Value>=Fields!si_name.Value</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>Maroon</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value xml:space="preserve">  </Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>Maroon</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Fields!si_num.Value</Value>
                     <Style>
                       <FontWeight>Bold</FontWeight>
                       <Color>Maroon</Color>
