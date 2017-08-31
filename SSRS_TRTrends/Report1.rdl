@@ -344,7 +344,7 @@ FROM            tchecks CROSS JOIN
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>tr directdep</Value>
+                                  <Value>tr directep</Value>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
@@ -363,7 +363,6 @@ FROM            tchecks CROSS JOIN
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -535,7 +534,7 @@ FROM            tchecks CROSS JOIN
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!tr_directdep.Value</Value>
+                                  <Value />
                                   <Style />
                                 </TextRun>
                               </TextRuns>
